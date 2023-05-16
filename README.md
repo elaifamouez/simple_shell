@@ -1,8 +1,27 @@
 # 0x16. C - Simple Shell
 
-### Description
+## A Unix Command Line Interpreter Built in C
 
-Shell is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program was written entirely in C as a milestone project for ALX Africa Software Engineering.
+```
+
+                       _____ _   _ _____    ____    _  _____ _____ ____     ___  _____ 
+                      |_   _| | | | ____|  / ___|  / \|_   _| ____/ ___|   / _ \|  ___|
+                        | | | |_| |  _|   | |  _  / _ \ | | |  _| \___ \  | | | | |_   
+                        | | |  _  | |___  | |_| |/ ___ \| | | |___ ___) | | |_| |  _|  
+                        |_| |_| |_|_____|  \____/_/   \_\_| |_____|____/   \___/|_|    
+
+                                       ____  _   _ _____ _     _     
+                                      / ___|| | | | ____| |   | |    
+                                      \___ \| |_| |  _| | |   | |    
+                                       ___) |  _  | |___| |___| |___ 
+                                      |____/|_| |_|_____|_____|_____|
+                                                                      
+```
+
+## About this project
+
+This project is a simple version of the linux shell made for [ALX SOFTWARE ENGINERRING] taking part of the "Simple Shell - Linux and Unix system programming" Project.\
+It is created using the **C programming Language** and it can do many functionalities that a real shell does.
 
 <details>
 <summary>The Gates of Shell by Spencer Cheng, featuring Julien Barbier</summary>
@@ -104,16 +123,22 @@ Shell is a simple UNIX command interpreter that replicates functionalities of th
 - Support the history feature
 - Support the file input
 
+
 ## Builtins
 
-- The exit builtin exit [STATUS]
-- The change directory cd [DIRECTORY] | [OPTION]
-- Display the environnment variables env
-- Initialize a new environnment variables or created if not match setenv [VARIABLE] [VALUE]
-- Remove an environnment variable unsetenv [VARIABLE]
-- Support the aliases alias [name [='value'] ...]
-- Display help help [BUILTIN]
-- Display history history
+Our shell has support for the following built-in commands:
+
+
+| Command                     | Definition                                                                                |
+| --------------------------- | ----------------------------------------------------------------------------------------- |
+| exit [STATUS]               | Exit the shell, with an optional exit status, STATUS.                                     |
+| env                         | Display the environnment variables env.                                                   |
+| setenv [VARIABLE] [VALUE]   | Initialize a new environnment variables or created if not match setenv.                   |
+| alias [name [='value'] ...] | Support the aliases                                                                       |
+| unsetenv [VARIABLE]         | Remove an environment variable.                                                           |
+| cd [DIRECTORY] | [OPTION]   | Changes the current directory of the process to DIRECTORY.                                |
+| help [BUILTIN]              | Read documentation for a built-in.                                                        |
+| history                     | Displays the last typed user .                                                            |
 
 ## Contributors :
 * [**Peter Kusare Chuwa Kusare**](https://github.com/count58)
