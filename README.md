@@ -136,7 +136,7 @@ Our shell has support for the following built-in commands:
 | setenv [VARIABLE] [VALUE]   | Initialize a new environnment variables or created if not match setenv.                   |
 | alias [name [='value'] ...] | Support the aliases                                                                       |
 | unsetenv [VARIABLE]         | Remove an environment variable.                                                           |
-| cd [DIRECTORY] | [OPTION]   | Changes the current directory.                                                            |
+| cd [DIRECTORY]   [OPTION]   | Changes the current directory.                                                            |
 | help [BUILTIN]              | Read documentation for a built-in.                                                        |
 | history                     | Displays the last typed user .                                                            |
 
