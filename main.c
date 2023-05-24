@@ -19,6 +19,6 @@ errno = 2;
 prompt = PROMPT_MSG;
 }
 errno = 0;
-sisifo(prompt, data);
+shell_loop(prompt, data);
 return (0);
 }

@@ -72,7 +72,7 @@ void expand_variables(data_of_program *data);
 void free_array_of_pointers(char **directories);
 void free_recurrent_data(data_of_program *data);
 int builtin_set_env(data_of_program *data);
-void sisifo(char *prompt, data_of_program *data);
+void shell_loop(char *prompt, data_of_program *data);
 int check_file(char *full_path);
 int builtin_unset_env(data_of_program *data);
 int buffer_add(char *buffer, char *str_to_add);

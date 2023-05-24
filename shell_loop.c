@@ -1,10 +1,10 @@
 #include "shell.h"
 /**
- * sisifo - its a infinite loop that shows the prompt
+ * shell_loop - its a infinite loop that shows the prompt
  * @prompt: prompt to be printed
  * @data: its a infinite loop that shows the prompt
  */
-void sisifo(char *prompt, data_of_program *data)
+void shell_loop(char *prompt, data_of_program *data)
 {
 int error_code = 0, string_len = 0;
 
