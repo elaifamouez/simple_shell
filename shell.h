@@ -51,7 +51,7 @@ int _atoi(char *s);
 int _print(char *string);
 int _printe(char *string);
 int str_length(char *string);
-int execute(data_of_program *data);
+int run_cmd(data_of_program *data);
 int _getline(data_of_program *data);
 int builtin_cd(data_of_program *data);
 char *_strtok(char *line, char *delim);
