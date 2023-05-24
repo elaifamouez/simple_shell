@@ -5,7 +5,7 @@ hsh \- ALX Shell
 .B hsh
 [command] [options ...]
 .SH COPYRIGHT
-hsh \- is a ALX school first trimester project
+hsh \- is a ALX school Second trimester project
 .SH DESCRIPTION
 .B hsh
 is a shell command interpreter that executes command read from the standard input or from file.
@@ -51,6 +51,7 @@ command1 || command2
 command2 is executed if and only if command1 returns a non-zero exit status.  The return status of AND and OR lists is the exit status of the last command executed in the list.
 .SH AUTHORS
 ELAIFA MOUEZ \- ALX School Software Engineer Student
+Peter Kusare Chuwa Kusare \- ALX School Software Engineer Student
 .SH VERSIONS
 .B hsh
 V1.0.0
