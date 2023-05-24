@@ -85,6 +85,7 @@ int _print_error(int errorcode, data_of_program *data);
 char *get_alias(data_of_program *data, char *alias);
 char *env_get_key(char *name, data_of_program *data);
 int set_alias(char *alias_string, data_of_program *data);
+void expand_variables_helper(data_of_program *data, char *line);
 void long_to_string(long number, char *string, int base);
 int str_compare(char *string1, char *string2, int number);
 int set_work_directory(data_of_program *data, char *new_dir);
