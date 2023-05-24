@@ -16,7 +16,7 @@ void expand_variables(data_of_program *data)
 	buffer_add(line, data->input_line);
 	for (i = 0; line[i]; i++)
 		if (line[i] == '#')
-			line[i - 1] = '\0';
+			line[i--] = '\0';
 		else if (line[i] == '$' && line[i + 1] == '?')
 		{
 			line[i] = '\0';
