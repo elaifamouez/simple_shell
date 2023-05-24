@@ -91,5 +91,5 @@ int str_compare(char *string1, char *string2, int number);
 int set_work_directory(data_of_program *data, char *new_dir);
 int env_set_key(char *key, char *value, data_of_program *data);
 int check_logic_ops(char *array_commands[], int i, char array_operators[]);
-void inicialize_data(data_of_program *data, int arc, char *argv[], char **env);
+void initialisation(data_of_program *data, int arc, char *argv[], char **env);
 #endif /* SHELL_H */
