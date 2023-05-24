@@ -2,23 +2,18 @@
 /**
  * expand_variables - expand variables
  * @data: a pointer to a struct of the program's data
- *
  * Return: nothing, but sets errno.
  */
 void expand_variables(data_of_program *data)
 {
 int i, j;
 char line[BUFFER_SIZE] = {0}, expansion[BUFFER_SIZE] = {'\0'}, *temp;
-
 if (data->input_line == NULL)
 return;
 buffer_add(line, data->input_line);
 for (i = 0; line[i]; i++)
 if (line[i] == '#')
-{
-if (i == 0 || line[i - 1] == ' ')
-line[i] = '\0';
-}
+line[i--] = '\0';
 else if (line[i] == '$' && line[i + 1] == '?')
 {
 line[i] = '\0';
